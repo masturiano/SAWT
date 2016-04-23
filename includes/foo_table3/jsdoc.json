@@ -1,0 +1,23 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["./src/js"],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "docs|lib"
+  },
+  "templates": {
+    "applicationName": "FooTable V3",
+    "default":{
+      "outputSourceFiles": false
+    },
+    "cleverLinks": false,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "mainpagetitle": "FooTable Developer Documentation",
+    "recurse": true,
+    "private": true
+  }
+}

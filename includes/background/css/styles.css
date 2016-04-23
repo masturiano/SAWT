@@ -1,0 +1,62 @@
+ /*------------  
+TEAM FONT
+--------------*/
+@import url(http://192.168.200.150/SAWT/includes/fonts/Exo/Exo-ThinItalic.ttf);
+@import url(http://192.168.200.150/SAWT/includes/fonts/Source_Code_Pro/SourceCodePro-Light.ttf);
+
+@font-face {
+    font-family: "Exo";
+    src: url(http://192.168.200.150/SAWT/includes/fonts/Exo/Exo-ExtraLightItalic.ttf);
+} 
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    margin:0px;
+    background: white;
+}
+
+.header_bg{
+    background:url('../img/header_bg.png') repeat-x top left; 
+    border:1px solid #CCC;
+    width:100%;
+    height:100px;
+    margin:0px auto;
+}
+
+.header_logo{
+    background:url('../img/header_logo.png') repeat-x top left;
+    position:absolute; 
+    z-index:1;
+    top:0px;
+    left:0px;
+    border:0px solid #CCC;
+    width:500px;
+    height:100px;
+    margin:0px auto;
+}
+
+.header_bg_down{
+    background:url('../img/header_bg_reverse.png') repeat-x top left; 
+    border:0px solid #CCC;
+    width:100%;
+    height:40px;
+    margin:0px auto;
+}
+
+.footer_bg{
+    background:url('../img/footer_bg.png') repeat-x top left;   
+    z-index:1;
+    bottom:0;
+    border:1px solid #CCC;
+    width:100%;
+    height:40px;  
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;    
+    margin: 0% ;
+    position: fixed;
+    bottom: 0%;  
+}

@@ -1,0 +1,30 @@
+1. Include jQuery script and daterangepicker.js
+1	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+2	<script type="text/javascript" src="date.js"></script>
+3	<script type="text/javascript" src="daterangepicker.js"></script>
+
+2. Include Bootstrap CSS
+1	<link rel="stylesheet" type="text/css" media="all" href="http://<a href="http://www.jqueryscript.net/tags.php?/twitter/">twitter</a>.github.com/bootstrap/assets/css/bootstrap.css" />
+2	<link rel="stylesheet" type="text/css" media="all" href="daterangepicker.css" />
+
+3. Html Markup
+01	<form class="form-horizontal">
+02	<fieldset>    
+03	<div class="control-group">
+04	<label class="control-label" for="reservation">Reservation dates:
+05	</label>      
+06	<div class="controls">
+07	<div class="input-prepend">
+08	<input type="text" name="reservation" id="reservation" />
+09	</div>
+10	</div>
+11	</div>  
+12	</fieldset>
+13	</form>
+
+4. Call the function
+1	<script type="text/javascript">
+2	$(document).ready(function() {
+3	    $('#reservation').daterangepicker();
+4	});
+5	</script>
